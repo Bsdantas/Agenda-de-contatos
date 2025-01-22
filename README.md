@@ -24,6 +24,18 @@ O projeto **Agenda de Contatos** é uma aplicação simples de gerenciamento de 
 
 ![image](https://github.com/user-attachments/assets/4f112197-1d56-47f6-aa53-255690a6f2e6)
 
+## Sobre Mim 👨‍🎓
 
-👨‍🎓 Sobre Mim Sou um estudante em busca de aperfeiçoar minhas habilidades em desenvolvimento web. Este projeto foi uma oportunidade de aplicar meus conhecimentos e explorar conceitos de design e interatividade. Espero que goste do resultado! 😊
+Sou um estudante em busca de aperfeiçoar minhas habilidades em desenvolvimento web. Este projeto foi uma oportunidade de aplicar meus conhecimentos e explorar conceitos de design e interatividade. Espero que goste do resultado! 😊
 
+## O que Aprendi
+
+- A importância de utilizar JavaScript para interatividade em páginas dinâmicas.
+- Como implementar uma formatação de input, como a de telefone.
+- A construção de uma interface simples, mas responsiva, para que funcione bem em diferentes dispositivos.
+- Como gerenciar eventos de clique para realizar ações como excluir contatos.
+- A manipulação de DOM para atualizar a interface conforme o usuário interage com a página.
+  
+## Link para o Projeto
+
+Você pode acessar o projeto hospedado no Vercel clicando [aqui](https://agenda-de-contatos-opal-beta.vercel.app/).
