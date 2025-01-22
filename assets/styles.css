@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 5vw;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+input {
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+button[type="submit"] {
+  background-color: #34d399;
+  color: white;
+  padding: 15px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #10b981;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-top: 40px;
+}
+
+#contatos {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+table, th, td {
+  border: 1px solid #e0e0e0;
+}
+
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+
+th {
+  background-color: #3b82f6;
+  color: white;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+button.delete-btn {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: #ef4444;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+button.delete-btn:hover {
+  color: #dc2626;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  form {
+    width: 100%;
+    padding: 15px;
+  }
+
+  input {
+    padding: 12px;
+  }
+
+  button[type="submit"] {
+    padding: 12px;
+  }
+
+  table {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 8vw;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 0.9em;
+  }
+
+  button[type="submit"] {
+    padding: 10px;
+    font-size: 1em;
+  }
+
+  table {
+    font-size: 0.85em;
+  }
+}
